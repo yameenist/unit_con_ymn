@@ -80,3 +80,7 @@ elif conversion_type == "Pressure":
         result = pressure_convertor(from_unit, to_unit, value)
         st.write(f"{value} {from_unit} = {result:.2f} {to_unit}")
 
+# ✅ Footer
+st.markdown("<hr style='border: 1px solid #ddd;'>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 14px; color: #555;'>🚀 This application is created by <b>Muhammad Yameen Saleem</b></p>", unsafe_allow_html=True)
+
